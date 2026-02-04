@@ -101,10 +101,6 @@ section#revenue {
 	width: 120px;
 }
 
-.about-block {
-	min-height: 200px;
-}
-
 .green-title {
 	background: #23FFFF;
 	background: linear-gradient(90deg, rgba(35, 255, 255, 1) 0%, rgba(4, 66, 66, 1) 100%);
@@ -117,6 +113,7 @@ section#revenue {
 }
 
 .about-block {
+	min-height: 200px;
 	border-radius: 16px;
 	backdrop-filter: blur(7.1px);
 	-webkit-backdrop-filter: blur(5.1px);
@@ -159,7 +156,7 @@ section#revenue {
 	background-position-x: center;
 	background-position-y: top;
 	position: relative;
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 .math-wrapper .img-left-circle {
