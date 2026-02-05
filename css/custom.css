@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	background-color: #000000;
 	background-image: url('../images/bg-body.jpg');
@@ -33,6 +37,10 @@ body {
 
 .btn-primary:hover {
 	transform: scale(1.05);
+}
+
+.fw-black {
+	font-weight: 900 !important;
 }
 
 .nav-link:focus,
@@ -78,7 +86,7 @@ section#revenue {
 
 section#revenue {
 	padding-top: 80px;
-	padding-bottom: 240px;
+	padding-bottom: 80px;
 }
 
 .navbar {
