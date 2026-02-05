@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -9,8 +9,22 @@ body {
 	background-position-x: center;
 	background-position-y: top;
 	font-family: "Inter", sans-serif;
+	font-size: 18px;
 	font-weight: 300;
 	color: #fff;
+}
+
+.font-jost {
+	font-family: "Jost", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+}
+
+.btn {
+	--bs-btn-padding-x: 1.1rem;
+	--bs-btn-padding-y: 0.5rem;
+	--bs-btn-font-size: 1.1rem;
+	letter-spacing: 1px;
 }
 
 .btn-primary {
@@ -37,6 +51,29 @@ body {
 
 .btn-primary:hover {
 	transform: scale(1.05);
+}
+
+.btn-lg {
+	--bs-btn-padding-x: 1.3rem;
+	--bs-btn-padding-y: 0.5rem;
+	--bs-btn-font-size: 1.3rem;
+	letter-spacing: 1px;
+}
+
+.btn-xlg {
+	background: linear-gradient(to right, rgba(98, 242, 255, 0.3) 0%, rgba(0, 167, 182, 0.3) 100%);
+	--bs-btn-padding-x: 2rem;
+	--bs-btn-padding-y: 0.5rem;
+	--bs-btn-font-size: 2rem;
+	letter-spacing: 1px;
+}
+
+.fw-bold {
+	font-weight: 700;
+}
+
+.fw-extra-bold {
+	font-weight: 800;
 }
 
 .fw-black {
@@ -106,7 +143,7 @@ section#revenue {
 }
 
 .logo {
-	width: 120px;
+	width: 220px;
 }
 
 .green-title {
@@ -117,17 +154,17 @@ section#revenue {
 }
 
 .about-logo {
-	width: 160px;
+	width: 200px;
 }
 
 .about-block {
-	min-height: 200px;
+	min-height: 250px;
 	border-radius: 16px;
 	backdrop-filter: blur(7.1px);
 	-webkit-backdrop-filter: blur(5.1px);
 }
 
-.about-block h5 {
+.about-block h4 {
 	border-bottom: 1px solid rgba(35, 255, 255, 0.25);
 	box-shadow: 0 1px 30px rgba(0, 0, 0, 0.25);
 }
@@ -155,7 +192,7 @@ section#revenue {
 }
 
 .revenue-logo {
-	width: 250px;
+	width: 300px;
 }
 
 .math-wrapper {
@@ -276,7 +313,7 @@ section#revenue {
 
 .bottom-wrapper {
 	position: relative;
-	overflow: hidden;
+	overflow: hidden !important;
 }
 
 .bottom-wrapper .img-left-circle {
@@ -301,4 +338,32 @@ section#revenue {
 	position: absolute;
 	right: 0;
 	top: 47%;
+}
+
+.social-icon {
+	transition: transform 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+	transform: scale(1.15);
+}
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: #00A7B6;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+#myBtn:hover {
+	background-color: #044242;
 }

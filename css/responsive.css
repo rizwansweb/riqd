@@ -1,10 +1,22 @@
 @media screen and (max-width: 600px) {
 	body {
 		background-image: url('../images/bg-body-mobile.jpg');
+		font-size: 16px;
 	}
 
 	#hero h2 {
 		font-size: 2.5rem;
+	}
+
+	.logo {
+		width: 100px;
+	}
+
+	.btn-xlg {
+		--bs-btn-padding-x: 1.5rem;
+		--bs-btn-padding-y: 0.5rem;
+		--bs-btn-font-size: 1.4rem;
+		letter-spacing: 1px;
 	}
 
 	.about-block {
@@ -97,6 +109,10 @@
 		border: 1px solid #23FFFF;
 	}
 
+	.revenue-logo {
+		width: 200px;
+	}
+
 	.bottom-wrapper .img-left-circle {
 		position: absolute;
 		left: -20%;
@@ -114,14 +130,14 @@
 	.bottom-wrapper .img-left-shape {
 		position: absolute;
 		left: 0;
-		top: 94%;
+		top: 93%;
 		width: 40%;
 	}
 
 	.bottom-wrapper .img-right-shape {
 		position: absolute;
 		right: 0;
-		top: 94%;
+		top: 84%;
 		width: 40%;
 	}
 }
